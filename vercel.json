@@ -1,0 +1,6 @@
+{
+  "buildCommand": "pnpm --filter @workspace/keyboard-hero run build",
+  "outputDirectory": "artifacts/keyboard-hero/dist",
+  "installCommand": "pnpm install",
+  "framework": "vite"
+}
