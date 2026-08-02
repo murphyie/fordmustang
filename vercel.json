@@ -1,5 +1,5 @@
 {
-  "buildCommand": "pnpm --filter @workspace/keyboard-hero run build",
+  "buildCommand": "PORT=3000 BASE_PATH=/ pnpm --filter @workspace/keyboard-hero run build",
   "outputDirectory": "artifacts/keyboard-hero/dist",
   "installCommand": "pnpm install",
   "framework": "vite"
